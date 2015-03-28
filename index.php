@@ -20,8 +20,8 @@ $body =
 "
 <h1>Welcome</h1>
 <p>My name is Justin Alan Bass, and among other things I am a " . $age . 
-" year old software engineer, UCI alumni, UCLA graduate student, Southern Californian, <a href=\"" . $IEEI .
-"\">singulatarian</a>, snowboarder, and licensed skydiver. I love challenging myself with difficult problems in computer science and in life.</p>
+" year old software engineer, UCI and UCLA alumni, Southern Californian, <a href=\"" . $IEEI .
+"\">singularitarian</a>, snowboarder, and licensed skydiver. I love challenging myself with difficult problems in computer science and in life.</p>
 ";
 
 if ($detect->isMobile()) {

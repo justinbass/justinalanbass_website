@@ -1,0 +1,196 @@
+
+/* ************************************************ */
+/* Generic Design Css: design.css */
+
+html {overflow: auto;}
+
+#body{ width: 100%; height: 100%; position:absolute;}
+
+#fixed_wallpaper { position: absolute; width: 100%; height: 100%;}
+
+#big_wrap {
+	position:relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#body #top { line-height: 0px; height: 0px; font-size: 0px; }
+#body #top img { height: 0px; }
+
+#menu {
+	margin-top: 40px;
+	left: 5px;
+	position: relative;
+}
+
+#corner-tl {
+	background-image: url(../../../../designs/design1007/color1/images/top_left.png);
+ 	background-position: left top;
+ 	background-repeat: no-repeat;	
+}
+
+#corner-tr {
+	background-image: url(../../../../designs/design1007/color1/images/top_right.png);
+ 	background-position: left top;
+ 	background-repeat: no-repeat;
+}
+
+#corner-bl {
+	background-image: url(../../../../designs/design1007/color1/images/bottom_left.png);
+ 	background-position: left top;
+ 	background-repeat: no-repeat;	
+}
+
+#corner-br {
+	background-image: url(../../../../designs/design1007/color1/images/bottom_right.png);
+ 	background-position: left top;
+ 	background-repeat: no-repeat;
+}
+
+
+#edge-bottom {
+	background-image: url(../../../../designs/design1007/color1/images/bottom.png);
+ 	background-position: left top;
+ 	background-repeat: repeat-x;
+}
+
+#edge-top {
+	background-color: #FFFFFF;
+}
+
+#edge-left {
+	background-image: url(../../../../designs/design1007/color1/images/left.png);
+ 	background-position: left top;
+ 	background-repeat: repeat-y;	
+}
+
+#edge-right {
+	background-image: url(../../../../designs/design1007/color1/images/right.png);
+ 	background-position: left top;
+ 	background-repeat: repeat-y;	
+}
+
+#center {
+	background: #FFFFFF;	
+}
+
+#content_wrap {
+	padding:22px 20px;
+	height: 100%;
+}
+
+#totop {
+	display: block;
+	background-image: url(../../../../designs/design1007/color1/images/totop_sprite.gif);
+	background-position: left bottom;
+	background-repeat: no-repeat;  
+	height: 10px;
+	width: 11px;
+}
+
+#totop:hover {
+	background-image:url(../../../../designs/design1007/color1/images/totop_sprite.gif);
+	background-position: right bottom;
+}
+
+#body .bot {
+	padding-top: 30px;
+}
+
+#logo { margin-left:12px; }
+
+#slogan { margin-left:10px; }
+
+#company_and_email { margin-left: 7px; }
+
+#body #vcounter { 
+	color: #ffffff;  
+	margin-left: 2px;
+}
+
+#body #vcounter div { 	 
+	text-align:left !important; 
+}
+
+.menupoint {
+	position:relative;
+	width:150px;
+}
+
+.menupoint_v3{
+	margin-right: 15px;	
+}
+
+.menupoint_level1 {
+	padding-bottom:15px;
+}
+
+.menupoint_active_bottom {
+	background-image:url(../../../../designs/design1007/color1/images/menupoint_active_bottom.png);
+	position:relative;
+	display:block;
+	width:150px;
+	height:15px;
+	min-height:15px;
+}         
+
+.menupoint3_active_bottom {
+	background-image:url(../../../../designs/design1007/color1/images/menupoint3_active_bottom.png);
+	position:relative;
+	display:block;
+	width:150px;
+	height:5px;
+	min-height:6px;
+}
+
+
+/* ************************************************ */
+/* Design Css for Color: color.css */
+
+ 
+#body h1, #body h2, #body h3, #body h4, #body h5, #body h6 { color:#909bc6; }
+#body h4 { color:#555555; }
+#vcounter { color: #ffffff; }
+
+
+/* ************************************************ */
+/* Custom Css Part */
+
+html {
+    overflow:auto;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+* html body { height: 100%; width: 100%; overflow:auto; }
+#body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #676767;
+    background: #FFFFFF none repeat scroll 0 0;
+    display: table;
+    overflow: auto;
+}
+* html #body { height: 100%; width: 100%;  }
+#body td {font-size: 12px;font-family: Arial, Helvetica, sans-serif;color: #676767;}
+#body .bot, #body .bot td, #body .bot p, #body div .bot #totop, #body td .bot #totop{
+font-family: Arial, Helvetica, sans-serif;font-size: 8px;color: #000000;
+}
+p {
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+}
+#body a, #body a:visited, #body a.pager, #body a.pager:visited {
+color: #676767;
+    text-decoration: underline;
+}
+#body a.totop, #body a.totop:visited, #body a.totop:hover {
+    color: #676767;
+    text-decoration: none;
+}
+#body a:hover, #body a.pager:hover {
+    text-decoration: underline;
+}
+object.videoObject {display: none;}*+html object.videoObject {display: block;}* html object.videoObject {display: block;}embed.videoEmbed {display: block;}*+html embed.videoEmbed {display: none;}* html embed.videoEmbed {display: none;}

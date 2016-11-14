@@ -65,7 +65,7 @@
     </div>
     <footer>
       <p>
-	  <a href="files/Justin Bass Resume.pdf"><img src="files/icons/resume.png" width = "100" height = "100"/></a>
+	  <a href="files/resume.pdf"><img src="files/icons/resume.png" width = "100" height = "100"></a>
 	  <a href="http://www.facebook.com/justinalanbass"><img src="files/icons/facebook-icon.png" width = "100" height = "100"></a>
 	  <a href="skydiving_flashcards.htm"><img src="files/icons/freefall.png" width = "100" height = "100"></a>
 	  </p>

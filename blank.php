@@ -71,7 +71,7 @@
     
     <footer>
       <p>
-	  <a href="files/Justin Bass Resume.pdf"><img src="files/icons/resume.png" width = "50" height = "50"/></a>
+	  <a href="files/resume.pdf"><img src="files/icons/resume.png" width = "50" height = "50"></a>
 	  <a href="https://www.facebook.com/justinalanbass" target="_blank"><img src="files/icons/facebook-icon.png" width = "50" height = "50"></a>
 	  <a href="skydiving_flashcards.htm"><img src="files/icons/freefall.png" width = "50" height = "50"></a>
 	  </p>
